@@ -1,7 +1,7 @@
 import { Knex } from 'knex';
 import client from './client';
 
-import { User } from './user';
+import { User } from '../types';
 
 export default class Database {
   client: Knex;
